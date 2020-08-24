@@ -27,7 +27,7 @@ class Alligator {
         console.log(`Chomp chomp all the ${food}ies.`)
     }
     speak(noise) {
-        alert(`The ${this.constructor.name} says ${noise}!`)
+        alert(`The ${this.name} says ${this.noise}!`)
     }
 }
 
